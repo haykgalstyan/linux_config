@@ -1,0 +1,5 @@
+# fastest mirror
+deb http://ftp.am.debian.org/debian/ unstable main contrib non-free
+
+# debian main server
+# deb http://deb.debian.org/debian/ unstable main contrib non-free
