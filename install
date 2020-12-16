@@ -1,0 +1,8 @@
+Snap:
+sudo apt install snapd
+
+Kotlin(JVM) snap:
+sudo snap install kotlin
+
+Go:
+sudo apt install golang
