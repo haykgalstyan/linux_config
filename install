@@ -1,8 +1,19 @@
+/*** APT ***/
+
+Golang:
+apt install golang
+
 Snap:
-sudo apt install snapd
+apt install snapd
+
+
+
+
+
+/*** SNAP ***/
 
 Kotlin(JVM) snap:
-sudo snap install kotlin
+snap install kotlin --classic
 
-Go:
-sudo apt install golang
+Intellij snap
+snap install intellij-idea-community --classic
