@@ -1,13 +1,17 @@
-Docs: http://www.libsdl.org/
+*** Game tutorial: http://lazyfoo.net/SDL_tutorials/index.php
 
-Install with apt:
+*** Docs: http://www.libsdl.org/
+
+
+*** Install with apt:
     1. Install sdl2
     libsdl2-2.0-0
     2. Install to build programs with sdl
     libsdl2-dev
 
 
-Stolen install and link instructions that work:
+
+*** Stolen install and link instructions that work:
 
 What you need to do to install SDL is:
 
@@ -28,3 +32,8 @@ use
 to link them, for example:
 
 g++ myProgram.cpp -o myProgram `sdl2-config --cflags --libs` -lSDL2 -lSDL2_mixer -lSDL2_image -lSDL2_ttf
+
+
+
+*** Makefile tutorial
+https://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/cli/index.php
