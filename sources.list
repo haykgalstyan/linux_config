@@ -1,5 +1,14 @@
-# fastest mirror
-deb http://ftp.am.debian.org/debian/ unstable main contrib non-free
+# Unstable, main server
+#deb http://deb.debian.org/debian/ unstable main contrib non-free
 
-# debian main server
-# deb http://deb.debian.org/debian/ unstable main contrib non-free
+
+# Experimental, main server
+#deb http://deb.debian.org/debian/ experimental main contrib non-free
+
+
+# Unstable, fastest mirror
+#deb http://ftp.am.debian.org/debian/ unstable main contrib non-free
+
+
+# Experimental, fastest mirror
+#deb http://ftp.am.debian.org/debian/ experimental main contrib non-free
