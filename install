@@ -14,8 +14,8 @@ apt install lm-sensors
 
 /*** SNAP ***/
 
-Kotlin(JVM) snap:
+Kotlin(JVM):
 snap install kotlin --classic
 
-Intellij snap
+Intellij:
 snap install intellij-idea-community --classic
