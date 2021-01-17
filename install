@@ -6,6 +6,8 @@ apt install golang
 Snap:
 apt install snapd
 
+Sensors:
+apt install lm-sensors
 
 
 
