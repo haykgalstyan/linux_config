@@ -19,3 +19,8 @@ snap install kotlin --classic
 
 Intellij:
 snap install intellij-idea-community --classic
+
+Upgrade snap channel:
+snap info the-snap            // will tell you what versions are in which channels
+snap refresh the-snap --beta  // switch to another channel (--candidate, --edge)
+Can switch back the same way via “snap refresh core --stable”
