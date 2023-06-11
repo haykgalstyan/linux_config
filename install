@@ -24,3 +24,20 @@ Upgrade snap channel:
 snap info the-snap            // will tell you what versions are in which channels
 snap refresh the-snap --beta  // switch to another channel (--candidate, --edge)
 Can switch back the same way via “snap refresh core --stable”
+
+
+/*** POWERTOP ***/
+Autotune service on startup
+Create a file at /etc/systemd/system/powertop.service
+And write the following content :
+
+[Unit]
+Description=Powertop auto-tune
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/powertop --auto-tune
+
+[Install]
+WantedBy=multi-user.target
